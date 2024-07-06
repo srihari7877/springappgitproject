@@ -9,7 +9,7 @@ public class StudentService {
 	
 	public Student getStudent(long id) {
 		Student s =new Student();
-		s.setId(1);
+		s.setId(id);
 		s.setName("srihari");
 		return s;
 	}
