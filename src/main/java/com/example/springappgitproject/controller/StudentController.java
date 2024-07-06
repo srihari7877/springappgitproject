@@ -11,6 +11,6 @@ public class StudentController {
 	
 	@GetMapping("/")
 	public ResponseEntity<String> getStudentController(){
-		return  new ResponseEntity<String>("Welcome to the spring boot project",HttpStatusCode.valueOf(200));
+		return  new ResponseEntity<String>("Welcome to the project",HttpStatusCode.valueOf(200));
 	}
 }
