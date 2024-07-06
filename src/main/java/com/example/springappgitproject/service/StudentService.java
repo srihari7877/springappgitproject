@@ -17,6 +17,8 @@ public class StudentService {
 
 	public Student saveStudent(Student student) {
 		// TODO Auto-generated method stub
+		student.setId(100);
+		student.setName("Jashwanth");
 		return student;
 	}
 
