@@ -8,6 +8,7 @@ import com.example.springappgitproject.model.Student;
 public class StudentService {
 	
 	public Student getStudent(long id) {
+		System.out.println("Enter into Service:: getStudent ");
 		Student s =new Student();
 		s.setId(id);
 		s.setName("srihari");
