@@ -11,6 +11,7 @@ public class StudentController {
 	
 	@GetMapping("/")
 	public ResponseEntity<String> getStudentController(){
+		System.out.println("Enter into Student contoller:::::::::::");
 		return  new ResponseEntity<String>("Welcome to the project",HttpStatusCode.valueOf(200));
 	}
 }
