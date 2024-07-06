@@ -14,4 +14,9 @@ public class StudentService {
 		return s;
 	}
 
+	public Student saveStudent(Student student) {
+		// TODO Auto-generated method stub
+		return student;
+	}
+
 }
