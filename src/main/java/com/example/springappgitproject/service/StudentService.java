@@ -19,7 +19,7 @@ public class StudentService {
 		// TODO Auto-generated method stub
 		System.out.println("Enter into Service:: saveStudent::::: ");
 		student.setId(100);
-		student.setName("ravi");
+		student.setName("jashwanth nikihil");
 		System.out.println("Student ::::"+student.toString());
 		return student;
 	}
