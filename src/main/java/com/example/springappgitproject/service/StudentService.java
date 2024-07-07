@@ -17,8 +17,10 @@ public class StudentService {
 
 	public Student saveStudent(Student student) {
 		// TODO Auto-generated method stub
+		System.out.println("Enter into Service:: saveStudent::::: ");
 		student.setId(100);
 		student.setName("Jashwanth");
+		System.out.println("Student ::::"+student.toString());
 		return student;
 	}
 
